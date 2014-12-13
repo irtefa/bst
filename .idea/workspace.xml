@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab7061d9-4897-4574-8b05-823c3f58bc15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple_bst.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_simple_bst.py" />
-      <change type="MOVED" beforePath="C:\Users\Mohd\Developer\bst\tests\__init__.py" afterPath="$PROJECT_DIR$/node.py" />
-      <change type="MOVED" beforePath="C:\Users\Mohd\Developer\bst\tests\test_abstract_bst.py" afterPath="$PROJECT_DIR$/test_abstract_bst.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstract_bst.py" afterPath="$PROJECT_DIR$/abstract_bst.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/simple_bst.py" afterPath="$PROJECT_DIR$/simple_bst.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_simple_bst.py" afterPath="$PROJECT_DIR$/test_simple_bst.py" />
     </list>
     <ignored path="bst.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +30,7 @@
       <file leaf-file-name="abstract_bst.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abstract_bst.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="850">
+            <state line="62" column="38" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.0" vertical-offset="1583" max-vertical-offset="2176">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -40,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="node.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.14333895" vertical-offset="0" max-vertical-offset="593">
+            <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -52,9 +50,20 @@
       <file leaf-file-name="test_simple_bst.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_simple_bst.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="26" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="3" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simple_bst.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simple_bst.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="30" selection-start="781" selection-end="781" vertical-scroll-proportion="0.6559865" vertical-offset="70" max-vertical-offset="680">
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,9 +89,9 @@
       <list>
         <option value="$PROJECT_DIR$/test_abstract_bst.py" />
         <option value="$PROJECT_DIR$/node.py" />
-        <option value="$PROJECT_DIR$/simple_bst.py" />
-        <option value="$PROJECT_DIR$/abstract_bst.py" />
         <option value="$PROJECT_DIR$/test_simple_bst.py" />
+        <option value="$PROJECT_DIR$/abstract_bst.py" />
+        <option value="$PROJECT_DIR$/simple_bst.py" />
       </list>
     </option>
   </component>
@@ -151,7 +160,7 @@
       <recent name="C:\Users\Mohd\Developer\bst\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_simple_bst">
+  <component name="RunManager" selected="Python.simple_bst">
     <configuration default="false" name="Unittests in test_abstract_bst" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,6 +205,24 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="simple_bst" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bst" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple_bst.py" />
+      <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -321,14 +348,16 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_abstract_bst" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_simple_bst" />
+      <item index="2" class="java.lang.String" itemvalue="Python.simple_bst" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_simple_bst" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_abstract_bst" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.simple_bst" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_simple_bst" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_abstract_bst" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +382,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -385,35 +414,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple_bst.py">
+    <entry file="file://$PROJECT_DIR$/node.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="526" selection-end="526" vertical-scroll-proportion="0.48735243" vertical-offset="0" max-vertical-offset="593">
+        <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstract_bst.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="850">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_simple_bst.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="26" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="3" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node.py">
+    <entry file="file://$PROJECT_DIR$/abstract_bst.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="102" selection-end="102" vertical-scroll-proportion="0.14333895" vertical-offset="0" max-vertical-offset="593">
-          <folding />
+        <state line="62" column="38" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.0" vertical-offset="1583" max-vertical-offset="2176">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple_bst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="30" selection-start="781" selection-end="781" vertical-scroll-proportion="0.6559865" vertical-offset="70" max-vertical-offset="680">
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,3 +1,4 @@
+from node import Node
 from abstract_bst import AbstractBst
 
 class SimpleBst(AbstractBst):
@@ -16,3 +17,18 @@ class SimpleBst(AbstractBst):
 		elif given_val > current_val:
 			return 1
 		return 0
+
+if __name__ == "__main__":
+	simple_bst = SimpleBst()
+	root = simple_bst.insert(None, 10)
+	simple_bst.insert(root, 20)
+	simple_bst.insert(root, 5)
+	simple_bst.insert(root, 15)
+	simple_bst.insert(root, 22)
+	simple_bst.insert(root, 1)
+	simple_bst.insert(root, 7)
+	simple_bst.insert(root, 6)
+	# for i in range(0, 11):
+	# 	simple_bst.insert(root, i)
+
+	simple_bst.level_order(root, simple_bst.depth(root))
